@@ -1,0 +1,596 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+
+    color: #34547A;
+    font-size: 48px;
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    background: #EEEFF1;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+body {
+    width: 100%;
+    background: #EEEFF1;
+
+}
+
+.header_logo {
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.header_menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    margin-left: 398px;
+    margin-top: 79px;
+}
+
+.header_menu a {
+    margin-left: 42px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+
+}
+
+.intro_right p {
+    max-width: 540px;
+    color: #727272;
+    font-family: Roboto;
+    margin: top 50px;
+}
+
+.intro_right h2 {
+    font: size 48px;
+    font-family: Roboto;
+}
+
+.intro_right {
+    margin: left 110px;
+    ;
+}
+
+.about {
+    text-align: center;
+    padding: 100px 0;
+    cursor: pointer;
+}
+
+.about h2 {
+    font: size 32px;
+    margin: bottom 50px;
+
+}
+
+.about P {
+    max-width: 540px;
+    color: #727272;
+    margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #34547A;
+}
+
+.skills_right img:hover {
+    filter: sepia(50%);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+}
+
+.skills_left {
+    margin-right: 150px;
+}
+
+.skills_left h2 {
+    margin-bottom: 50px;
+}
+
+.skill_1::before {
+    content: '';
+    display: block;
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+
+    position: absolute;
+    bottom: -20px;
+}
+
+.skill {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.skill_1::after {
+    content: '';
+    display: block;
+    width: 245px;
+    height: 4px;
+    background-color: #34547A;
+
+    position: absolute;
+    bottom: -20px;
+}
+
+.skill_2::before {
+    content: '';
+    display: block;
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+
+    position: absolute;
+    bottom: -20px;
+}
+
+.skill {
+    position: relative;
+}
+
+.skill_2::after {
+    content: '';
+    display: block;
+    width: 135px;
+    height: 4px;
+    background-color: #34547A;
+
+    position: absolute;
+    bottom: -20px;
+}
+
+.skill_3::before {
+    content: '';
+    display: block;
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+
+    position: absolute;
+    bottom: -20px;
+}
+
+.skill {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.skill_3::after {
+    content: '';
+    display: block;
+    width: 348px;
+    height: 4px;
+    background-color: #34547A;
+
+    position: absolute;
+    bottom: -20px;
+}
+
+
+
+.proces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    flex-direction: column;
+
+    font-family: Roboto;
+}
+
+.proces h2 {
+
+    font-size: 35px;
+    margin: bottom 50px;
+
+}
+
+.proces p {
+    width: 540px;
+    color: #727272;
+    text-align: center;
+}
+
+
+.proces video {
+    width: 700px;
+    margin-top: 50px;
+}
+
+
+.video_block {
+    display: flex;
+}
+
+.proces_video_1 {
+    margin-left: 50px;
+}
+
+
+.send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.send h2 {
+    font-size: 32px;
+    font-family: Roboto;
+    margin-bottom: 50px;
+
+}
+
+.send p {
+    color: #727272;
+    font-family: Roboto;
+    margin-bottom: 50px;
+    max-width: 540px;
+    text-align: center;
+    background-color: #EEEFF1;
+}
+
+form input {
+    border: none;
+    width: 255px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+form input:nth-child(1) {
+    margin: right 30 px;
+}
+
+form textarea {
+    border: none;
+    resize: none;
+    padding: 17px 20px;
+    width: 540px;
+
+}
+
+form button {
+    width: 190px;
+    border: none;
+    height: 55px;
+    background-color: #34547A;
+    display: block;
+    margin: 50px auto;
+    cursor: pointer;
+
+}
+
+.galary_str img {
+    width: 100%;
+
+}
+
+.galary_str {
+    display: flex;
+}
+
+.lightzoom {
+    width: 25%;
+}
+
+
+.intro button {
+    width: 225px;
+    height: 65px;
+    color: #EEEFF1;
+    background-color: #34547A;
+    border: none;
+    font-family: Roboto;
+    margin-top: 65px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.intro_right {
+    margin-left: 120px;
+}
+
+.modal {
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.modal_content {
+    padding: 20px;
+    margin: 7% auto;
+    width: 70%;
+    height: 70%;
+    background-color: #EEEFF1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-family: Revalia;
+    font-size: 48px;
+    font-width: 700;
+    color: #34547A;
+    cursor: pointer;
+}
+
+.send_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.intro_button:hover {
+    border-radius: 50px;
+}
+
+.intro_button {
+    transition: all ease 5s;
+
+
+}
+
+.header_logo {
+    position: relative;
+
+}
+
+.header_logo::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #34547A;
+    top: 0;
+    left: -17px;
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+
+    animation: updown ease 5s infinite;
+    transition: all ease 5s;
+}
+
+@keyframes updown {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    100% {
+        top: 0;
+    }
+
+
+}
+
+footer {
+    height: 150ox;
+    background-color: #34547A;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Roboto;
+}
+
+.footer_left p {
+    color: #EEEFF1;
+}
+
+.footer_left h2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #EEEFF1;
+
+
+
+}
+
+.footer_right img {
+    width: 50px;
+    margin-left: 50px;
+}
+
+.header_menu a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.header_menu a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #34547A;
+    transition: 500ms;
+    display: block;
+
+}
+
+.header_menu a:hover::after {
+    width: 100%;
+}
+
+.btn_menu {
+    display: none;
+    width: 80px;
+}
+
+@media (max-width:576px) {
+    .header_menu {
+        display: none;
+    }
+
+
+    .btn_menu {
+        display: inline-block;
+    }
+
+    .intro {
+        flex-wrap: wrap;
+    }
+
+    .intro img {
+        margin-bottom: 30px;
+    }
+
+    .intro_right {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .intro_right p {
+        text-align: center;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+
+    }
+
+    .projects img {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .skills_right img {
+        width: 100%;
+    }
+
+    .skill_1::before,
+    .skill_2::before,
+    .skill_3::before {
+        width: 390px;
+    }
+
+    .proces p {
+        width: 90%;
+    }
+
+    .proces video {
+        width: 100%;
+    }
+
+    .send p {
+        width: 90%;
+
+    }
+
+    .form input {
+        width: 90%;
+    }
+
+    .form textarea {
+        width: 90%;
+    }
+
+    .galary_str {
+        flex-wrap: wrap;
+    }
+
+    .galary_str img {
+        width: 100%;
+    }
+
+    .lightzoom {
+        width: 100%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    form textarea {
+        width: 90%;
+    }
+
+    form input {
+        width: 90%;
+    }
+
+    .send {
+        display: block;
+    }
+    header{
+        position: relative;
+    }
+}
+.send button p{
+    background-color: #EEEFF1;
+}
+
